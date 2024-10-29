@@ -1,16 +1,43 @@
-# onepe
+# OnePe
 
-A new Flutter project.
+OnePe is a mobile payment application designed to simplify transactions with a seamless and secure payment experience. Built with Flutter, Node.js, MongoDB, and integrated with RazorPay, AWS S3, and Firebase for comprehensive functionality.
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Setup and Installation](#setup-and-installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **User Authentication**: Secure login and registration.
+- **Payment Integration**: Integrated with RazorPay for handling payments.
+- **Data Storage**: Uses AWS S3 for storing images and other files.
+- **Notifications**: Sends real-time notifications to users via Firebase.
+- **Data Management**: MongoDB for efficient data storage and retrieval.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+
+### Frontend
+- **Flutter**: Cross-platform development framework for a seamless user experience on Android and iOS.
+
+### Backend
+- **Node.js**: Server-side JavaScript runtime for handling API requests.
+- **MongoDB**: NoSQL database for data storage and retrieval.
+- **RazorPay**: Payment gateway integration to manage transactions.
+
+### Other Tools
+- **AWS S3**: Storage solution for handling images and other media.
+- **Firebase**: Provides notification services and other real-time functionalities.
+
+## Setup and Installation
+
+### Prerequisites
+
+- **Node.js** (v14 or above)
+- **Flutter SDK** (latest stable vers
